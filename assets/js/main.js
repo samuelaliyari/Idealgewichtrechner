@@ -8,7 +8,6 @@ const resultOutput = document.body.querySelector("p");
 const submitButton = document.body.querySelector("div input");
 
 submitButton.addEventListener("click", () => {
-    event.preventDefault();
     const height = Number(heightInput.value);
     const age = Number(ageInput.value);
     const breit = typeBreit.checked;

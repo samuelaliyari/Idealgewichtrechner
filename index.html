@@ -10,11 +10,11 @@
     <main>
         <section>
             <h1>Idealgewichtrechner</h1>
-            <form>
+            <form onsubmit="return false">
                 <label for="Körpergröße">Körpergröße <span>*</span></label><br>
-                <input type="number" name="bodyHeight" id="bodyHeight" maxlength="3" min="1" max="300" placeholder="CM" required><br>
+                <input type="number" name="bodyHeight" id="bodyHeight" min="1" max="300" placeholder="CM" required><br>
                 <label for="Alter">Alter <span>*</span></label><br>
-                <input type="number" name="age" id="age" maxlength="3" min="0" max="200" placeholder="Year" required><br>
+                <input type="number" name="age" id="age" min="0" max="200" placeholder="Year" required><br>
                 <label for="körperbau">Körperbau</label><br>
                 <input type="radio" name="bodyType" id="breit" value="breite">
                 <label for="breite">Breite</label>
